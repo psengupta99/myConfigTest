@@ -8,7 +8,12 @@ import org.springframework.stereotype.Component;
 import myjava.dao.MyJdbcDaoimpl.CircleRowMapper;
 import myjava.model.Circle;
 
+
 @Repository(value="myDaoSupport")
+
+//Code comment
+
+
 public class MyDaoSupport extends NamedParameterJdbcDaoSupport{
 	
 public List<Circle> getCircle() {

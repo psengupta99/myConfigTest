@@ -7,7 +7,7 @@ import org.springframework.stereotype.Component;
 
 import myjava.dao.MyJdbcDaoimpl.CircleRowMapper;
 import myjava.model.Circle;
-
+//Code comment
 @Component(value="myDaoSupport")
 public class MyDaoSupport extends NamedParameterJdbcDaoSupport{
 	
